@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+* {
+  font-family: "Nanum Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  color: #333;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+div#wrap {
+  width: 930px;
+  /*padding: 2px;*/
+  /* border: 1px solid #000;*/
+  margin: 0 auto;
+}
+
+/* 헤더영역 시작 */
+header#header {
+  /*border: 1px solid #000;*/
+  margin: 2px;
+}
+
+/* 헤더영역 끝 */
+
+/* 메인 시작 */
+main#main {
+  /*border: 1px solid #000;*/
+  margin: 2px;
+
+  /* display: flex; */
+}
+
+div#left,
+aside#aside {
+  /*border: 1px solid #000;*/
+  margin: 2px;
+}
+
+#left {
+  width: 660px;
+  padding: 17px;
+  padding-right: 0;
+  /* flex: 1; */
+
+  float: left;
+}
+
+#left h1 {
+  color: #296f6e;
+  font-size: 26px;
+}
+
+p#warranty {
+  font-style: italic;
+  line-height: 26px;
+  padding: 26px;
+  padding-right: 30px;
+  padding-left: 90px;
+  border: 1px dashed #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* 둥근 모서리 */
+
+  margin-right: 10px;
+
+  background-color: #a7cdce;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+}
+
+#left h2 {
+  color: #296f6e;
+  font-size: 21px;
+}
+
+ul#musicList > li {
+  line-height: 28px;
+}
+
+ul#musicList span:first-child {
+  font-style: italic;
+}
+
+#musicList span:last-child {
+  font-weight: bold;
+}
+
+#aside {
+  width: 250px;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #296f6e;
+
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+
+  float: right;
+}
+
+#aside h2 {
+  width: 90px;
+  font-size: 20px;
+  margin: 15px auto;
+}
+
+#aside h3 {
+  color: #b4437b;
+  font-size: 16px;
+}
+
+#aside p {
+  line-height: 17px;
+}
+/* 메인 끝 */
+
+/* 푸터 */
+footer#footer {
+  text-align: center;
+  /*border: 1px solid #000;*/
+  margin: 2px;
+
+  clear: both;
+}
+#footer > p {
+  font-size: 12px;
+  line-height: 13px;
+}
+/* 푸터 */
